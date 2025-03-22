@@ -1,7 +1,7 @@
 import { 
-  people01, 
-  people02, 
-  people03, 
+  prsn01, 
+  prsn02, 
+  prsn03, 
   facebook, 
   instagram, 
   linkedin, 
@@ -65,7 +65,7 @@ export const feedback = [
       "Nexify transformed how we manage our finances. The AI insights are game-changing.",
     name: "Alex Johnson",
     title: "CEO, TechNova",
-    img: people01,
+    img: prsn01,
   },
   {
     id: "feedback-2",
@@ -73,7 +73,7 @@ export const feedback = [
       "The automation features saved us hundreds of hours in financial operations.",
     name: "Sarah Lee",
     title: "CFO, InnovateX",
-    img: people02,
+    img: prsn02,
   },
   {
     id: "feedback-3",
@@ -81,7 +81,7 @@ export const feedback = [
       "Finally, a financial platform that grows with our business needs.",
     name: "Michael Tan",
     title: "COO, FutureTech",
-    img: people03,
+    img: prsn03,
   },
 ];
 

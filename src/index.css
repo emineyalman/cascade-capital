@@ -130,14 +130,22 @@
 }
 
 .glow-effect {
-  @apply relative overflow-hidden;
-  
-  &::after {
-    content: '';
-    @apply absolute inset-0 bg-gradient-to-r from-[#9333EA] to-[#3B82F6] opacity-0 blur-lg transition-opacity duration-500;
-  }
-  
-  &:hover::after {
-    @apply opacity-20;
-  }
+  position: relative;
+  overflow: hidden;
+  transition-property: transform;
+  transition-duration: 300ms;
+}
+
+.glow-effect::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, #9333EA, #3B82F6);
+  opacity: 0;
+  filter: blur(16px);
+  transition: opacity 500ms;
+}
+
+.glow-effect:hover::after {
+  opacity: 0.2;
 }

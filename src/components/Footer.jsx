@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from '../style'
-import { logo } from '../assets'
 import { footerLinks, socialMedia } from '../constants'
 
 const Footer = () => {
@@ -26,12 +25,10 @@ const Footer = () => {
             </div>
           ))}
         </div>
-        <div className='flex-1 flex flex-col justify-start ml-10'>
-          <img
-            src={logo}
-            alt='logo'
-            className='w-[266px] h-[172px] object-contain'
-          />
+        <div className='flex-1 flex flex-col justify-start ml-10 '>
+        <span className='text-xl font-bold bg-gradient-to-r from-[#3B82F6] to-[#9333EA] bg-clip-text text-transparent animate-gradient'>
+        Cascade Capital 
+                </span>
           <p className={`${styles.paragraph} mt-4 max-w-[310px] text-gray-400`}>
             Revolutionizing digital finance with cutting-edge blockchain technology and AI-powered solutions.
           </p>
@@ -39,7 +36,8 @@ const Footer = () => {
       </div>
       <div className='w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3B82F6]/20'>
         <p className='font-poppins font-normal text-center text-[18px] leading-[27px] text-gray-400'>
-          © 2023 NexaBank. Empowering the future of finance.
+          © 2025 Cascade Capital 
+          . Empowering the future of finance.
         </p>  
         <div className='flex flex-row md:mt-0 mt-6 space-x-6'>
           {socialMedia.map((social) => (

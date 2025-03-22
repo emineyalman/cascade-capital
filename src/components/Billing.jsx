@@ -1,5 +1,5 @@
 import React from 'react'
-import { apple, bill, google } from '../assets'
+import { apple, paypal, google } from '../assets'
 import styles, { layout } from '../style'
 import Button from './Button'
 
@@ -32,8 +32,8 @@ const Billing = () => {
       </div>
       <div className={layout.sectionImg}>
         <img
-          src={bill}
-          alt='billing'
+          src={paypal}
+          alt='paypal'
           className='w-[100%] h-[100%] relative z-[5] transform hover:scale-105 transition-transform duration-300'
         />
         <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full bg-gradient-to-r from-[#3B82F6]/20 to-[#9333EA]/20 blur-3xl'/>

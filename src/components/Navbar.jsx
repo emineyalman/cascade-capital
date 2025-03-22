@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { close, logo, menu } from '../assets'
+import { close, menu } from '../assets'
 import { navLinks } from '../constants'
 
 const Navbar = () => {
@@ -8,10 +8,9 @@ const Navbar = () => {
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar bg-gradient-to-b from-[#0F172A] to-[#1E293B] backdrop-blur-lg border-b border-[#2C3E50]'>
       <div className='flex items-center space-x-4'>
-        <img src={logo} alt='nexify' className='w-[140px] h-[36px] hover:scale-105 transition-transform hover:rotate-3'/>
-        <span className='text-xl font-bold bg-gradient-to-r from-[#3B82F6] to-[#9333EA] bg-clip-text text-transparent animate-gradient'>
-          Nexify
-        </span>
+      <span className='text-xl font-bold bg-gradient-to-r from-[#3B82F6] to-[#9333EA] bg-clip-text text-transparent animate-gradient'>
+        Cascade Capital 
+      </span>
       </div>
 
       <ul className='list-none sm:flex hidden justify-end items-center flex-1 space-x-8'>

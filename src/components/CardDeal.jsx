@@ -1,5 +1,5 @@
 import React from 'react'
-import { card } from '../assets'
+import { creditcard } from '../assets'
 import Button from './Button'
 import styles, { layout } from '../style'
 
@@ -8,8 +8,8 @@ const CardDeal = () => {
     <section className={`${layout.section} bg-gradient-to-br from-[#0F172A] to-[#1E293B] backdrop-blur-lg rounded-3xl p-8 hover:shadow-[0_0_30px_rgba(59,130,246,0.3)] transition-all duration-300`}>
       <div className={layout.sectionImg}>
         <img
-          src={card}
-          alt='card'
+          src={creditcard}
+          alt='creditcard'
           className='w-[100%] h-[100%] transform hover:scale-105 transition-transform duration-300'
         />
       </div>

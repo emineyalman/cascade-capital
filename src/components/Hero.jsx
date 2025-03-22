@@ -1,6 +1,5 @@
 import styles from '../style'
-import { discount, robot,rbt } from '../assets'
-import GetStarted from './GetStarted'
+import { discount,rbttt } from '../assets'
 
 const Hero = () => {
   return (
@@ -17,7 +16,7 @@ const Hero = () => {
             <span className='text-[#FDE047]'>30% OFF</span> for New Users
           </p>
         </div>
-        
+
         <div className='flex flex-col space-y-6'>
           <h1 className='font-poppins font-bold text-5xl md:text-7xl text-white leading-tight'>
             Revolutionize Your <br/>
@@ -39,17 +38,18 @@ const Hero = () => {
               Learn More
             </button>
           </div>
+
+          <div className="mt-6">
+          </div>
         </div>
       </div>
       
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         <img
-          src={rbt}
+          src={rbttt}
           alt='billing'
           className='w-[90%] h-[90%] relative z-[5] hover:scale-105 transition-transform duration-500'
         />
-        <div className="absolute z-[0] w-[40%] h-[35%] top-0 bg-gradient-to-r from-[#F59E0B] to-[#EF4444] opacity-60 blur-2xl" />
-        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bg-gradient-to-b from-white to-transparent opacity-20 bottom-40" />
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 bg-gradient-to-b from-[#3B82F6] to-[#9333EA] opacity-60 blur-2xl"/>
       </div>
     </section>
